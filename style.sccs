@@ -1,0 +1,11 @@
+#head{
+  width: 100%;
+  background-color: silver;
+  text-align: center;
+}
+body{
+  background-color: #f0e2cd;
+}
+ul{
+  margin: 40pt;
+}
