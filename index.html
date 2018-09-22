@@ -6,13 +6,39 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Awest GSA Site</title>
   <style>
-    body{
-      background-color:#c4baff;
-    }
+body {
+	background: #000;
+}
+h1 {
+  color:#fff;
+}
+#slideshow, img { 
+  min-height: 100%; 
+  min-width: 1024px; 
+  width: 100%; 
+  height: auto; 
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  z-index:-9999; 
+}
   </style>
+  <script>
+    $('#slideshow').cycle({ 
+	speed: 1800, 
+	timeout: 3500 
+});
+  </script>
 
 </head>
 <body>
+  
+<div id="slideshow">
+	<img src="https://unsplash.it/1900/1200?image=47">
+	<img src="https://unsplash.it/1900/1200?image=49">
+	<img src="https://unsplash.it/1900/1200?image=50">
+	<img src="https://unsplash.it/1900/1200?image=147">
+</div>
 <center>
   <h1 style="font-size: 40pt"> AWest GSA Website </h1>
   <table id="head">
