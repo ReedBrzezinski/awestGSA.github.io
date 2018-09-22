@@ -4,7 +4,7 @@
   text-align: center;
 }
 body{
-  background-color: #f0e2cd;
+  background-color: #f442f1;
 }
 ul{
   margin: 40pt;
